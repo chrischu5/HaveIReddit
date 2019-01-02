@@ -5,9 +5,14 @@ const request = require('request-promise').defaults({ json: true, baseUrl });
 const port = 3000;
 const expected_redirect_uri = `http://localhost:${port}/authorize_callback`;
 
-const scopePromise = request.get('scopes');
+// RedditModel.getUser('orangenomnom').getSavedContent().then(data => {
+//   console.log(data)
+// })
 
-
-inquirer.prompt("What's up guys?").then(answers => {
+inquirer.prompt([{
+  type: 'input',
+  name: 'dude',
+  message: 'This is the first prompt test: '
+}]).then(answers => {
   console.log(JSON.stringify(answers, null, ' '));
 });
