@@ -10,4 +10,6 @@ const r = new snoowrap({
   password: process.env.REDDIT_PASSWORD
 });
 
-module.exports = r;
+module.exports = {
+  getAll: r.getMe().getSavedContent().fetchAll()
+};
