@@ -31,9 +31,9 @@ REDDIT_PASSWORD=<your-reddit-password>
 
 ## TO DO
 
-[x] - Navigate through saved posts 
-[x] - Search for posts based on keywords in title
-[ ] - Add ability to filter by subreddit
-[ ] - Display X amount of results based on user input
-[ ] - Better formatting
+- [x] Navigate through saved posts 
+- [x] Search for posts based on keywords in title
+- [ ] Add ability to filter by subreddit
+- [ ] Display X amount of results based on user input
+- [ ] Better formatting
 
