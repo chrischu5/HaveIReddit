@@ -28,3 +28,12 @@ REDDIT_PASSWORD=<your-reddit-password>
 > To access your client ID and secret key, head to https://www.reddit.com/prefs/apps/ and set up a new app as a `script`. The redirect URI can be anything for now.
 
 3. Run `npm start` and follow the on-screen commands.
+
+## TO DO
+
+- [x] Navigate through saved posts 
+- [x] Search for posts based on keywords in title
+- [ ] Add ability to filter by subreddit
+- [ ] Display X amount of results based on user input
+- [ ] Better formatting
+
