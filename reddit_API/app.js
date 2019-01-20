@@ -1,6 +1,5 @@
 const RedditModel = require('./reddit_access');
 const readline = require('readline');
-const savedPostActions = require('../utils/redditSPActions');
 
 // R E A D L I N E
 const rl = readline.createInterface({
@@ -84,13 +83,13 @@ console.log(`•We are now pulling all of your saved posts. This could take a fe
 rl.on("line", (line) => {
   switch(line) {
     case 'n':
-    savedPostActions.showNext();
+    showNext();
       break;
     case 'b':
-    savedPostActions.showPrev();
+    showPrev();
       break;
     case 's':
-    savedPostActions.showSearch();
+    showSearch();
       break;
     case 'q':
       console.log('\nSee you soon!');
