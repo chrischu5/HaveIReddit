@@ -1,4 +1,4 @@
-const RedditModel = require('./reddit_model');
+const RedditModel = require('./reddit_access');
 const readline = require('readline');
 
 // R E A D L I N E
