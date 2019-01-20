@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./components/reddit_API/app.js"
+    "start": "node ./reddit_API/app.js"
   },
   "dependencies": {
     "dotenv": "^6.2.0",
